@@ -1,0 +1,12 @@
+---
+title: "paper-pile demo"
+format:
+  revealjs:
+    embed-resources: true
+---
+
+## A pile of papers
+
+{{< paper-pile "images/paper1.svg" "images/paper2.svg" "images/paper3.svg" stagger=0.4 height=560px >}}
+
+Press "next" to reveal each paper after the first.
